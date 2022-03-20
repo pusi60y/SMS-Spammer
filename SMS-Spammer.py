@@ -9,12 +9,8 @@ def restart_program():
 """ Coded By Allistar by Star Sec."""
 os.system("clear")
 print " "
-print "   ___   __  __   ___     ___       "
-print "  / __| |  \/  | / __|   / __|  _ __   __ _   _ __    _ __    ___   _ _ "
-print "  \__ \ | |\/| | \__ \   \__ \ | '_ \ / _` | | '  \  | '  \  / -_) | '_|"
-print "  |___/ |_|  |_| |___/   |___/ | .__/ \__,_| |_|_|_| |_|_|_| \___| |_|  "
-print "                               |_|                                      "
-print "------------------------------------------------------------------------- "
+
+print "     "
 print "  ===|[ SMS Spammer ]|==="
 print "  [01] Setup New Session        "
 print "  [02] Repeat Last Spam          "
@@ -45,4 +41,4 @@ elif (Spammer == '00' or Spammer == '0'):
 else:
        print "\n[!] ERROR : Wrong Input"
        time.sleep(1)
-       restart_program()
+       restar
